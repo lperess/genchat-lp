@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  background-color: #faf9f6;
+  height: 100vh;
+}
+
+p {
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+}
+
+.container {
+  background-color: #fff;
+  min-width: 320px;
+  width: 360px;
+  margin: auto;
+  height: 800px;
+
+  box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.container .top-strip {
+  height: 24px;
+  background-color: #52120f;
+  margin-bottom: 80px;
+}
+
+.container main {
+  display: flex;
+  margin: 0 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  margin-bottom: 108px;
+
+  font-family: Mulish, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container main .icon-container {
+  background-color: #ffc008;
+  width: 128px;
+  height: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+}
+
+.container main .icon-container img {
+  width: 96px;
+}
+
+.container main .text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.container main .text .title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #52120f;
+}
+
+.container main .text .subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #7f7f7f;
+}
+
+.container main .input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.container main .input-container #wpp-input {
+  display: flex;
+  gap: 8px;
+  height: 24px;
+  font-size: 16px;
+  padding: 0;
+  border: none;
+}
+
+.container main .input-container #wpp-input:focus {
+  outline: none;
+}
+
+.container main .input-container .number-label {
+  font-size: 14px;
+  color: #949494;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.container main .input-container .number-label .input-icon {
+  display: flex;
+  gap: 8px;
+  border: 1px solid #7f7f7f;
+  border-radius: 4px;
+  padding: 15px 8px;
+}
+
+.container main .input-container .checkbox-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.container main .input-container .checkbox-container #terms {
+  cursor: pointer;
+  margin: 0;
+  height: 16px;
+  transform: scale(1.2);
+}
+
+.container main .input-container .checkbox-container .checkbox-label {
+  font-size: 12px;
+  line-height: 16px;
+  color: #7f7f7f;
+}
+
+.container main .input-container .checkbox-container .checkbox-label a:visited {
+  color: #7f7f7f;
+}
+
+.container main .start-btn {
+  border: none;
+  background-color: #02acd0;
+  border-radius: 500px;
+  padding: 8px 16px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.container main .start-btn span {
+  color: #fff;
+  font-family: Mulish, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.container .shopping-logo {
+  width: 133px;
+  margin-left: 32px;
+}
