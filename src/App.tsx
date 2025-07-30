@@ -1,4 +1,4 @@
-import serviceBell from "../public/elegant-hotel-service-bell-96x96.png";
+import serviceBell from "./assets/elegant-hotel-service-bell-96x96.png";
 import wppIcon from "./assets/whatsapp-icon.svg";
 import arrowRight from "./assets/arrow-right.svg";
 import outletPremium from "./assets/outlet-premium.png";
