@@ -90,6 +90,7 @@ p {
   font-size: 16px;
   padding: 0;
   border: none;
+  font-family: Mulish, sans-serif;
 }
 
 .container main .input-container #wpp-input:focus {
