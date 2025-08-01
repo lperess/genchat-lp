@@ -1,17 +1,17 @@
-import serviceBell from "./assets/elegant-hotel-service-bell-96x96.png";
 import wppIcon from "./assets/whatsapp-icon.svg";
 import arrowRight from "./assets/arrow-right.svg";
 import outletPremium from "./assets/outlet-premium.png";
 
 export default function App() {
   return (
-    <div className="container">
+    <>
       <div className="top-strip" />
-
-      <main>
-        <div className="icon-container">
-          <img src={serviceBell} alt="Campainha de balcão de hotel" />
-        </div>
+      <div className="container">
+        <img
+          src={outletPremium}
+          alt="Logo do shopping"
+          className="shopping-logo"
+        />
 
         <div className="text">
           <p className="title">
@@ -56,13 +56,7 @@ export default function App() {
           <span>Começar</span>
           <img src={arrowRight} width={24} alt="Ícone do WhatsApp" />
         </button>
-      </main>
-
-      <img
-        src={outletPremium}
-        alt="Logo do shopping"
-        className="shopping-logo"
-      />
-    </div>
+      </div>
+    </>
   );
 }
